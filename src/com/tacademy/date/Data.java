@@ -3,9 +3,17 @@ package com.tacademy.date;
 public class Data {
 	private String name;
 	private int age;
-	private String testringAddress;
 	private String masetAddress;
+	private String iss53;
 	
+
+	public String getIss53() {
+		return iss53;
+	}
+
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
+	}
 
 	public String getMasetAddress() {
 		return masetAddress;
@@ -15,13 +23,6 @@ public class Data {
 		this.masetAddress = masetAddress;
 	}
 
-	public String getTestringAddress() {
-		return testringAddress;
-	}
-
-	public void setTestringAddress(String testringAddress) {
-		this.testringAddress = testringAddress;
-	}
 
 	public int getAge() {
 		return age;
@@ -40,8 +41,7 @@ public class Data {
 	}
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", testringAddress=" + testringAddress + ", masetAddress="
-				+ masetAddress + "]";
+		return "Data [name=" + name + ", age=" + age + ", masetAddress=" + masetAddress + ", iss53=" + iss53 + "]";
 	} 
 
 
