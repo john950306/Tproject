@@ -4,16 +4,8 @@ public class Data {
 	private String name;
 	private int age;
 	private String masetAddress;
-	private String hotfix;
 	
 
-	public String getHotfix() {
-		return hotfix;
-	}
-
-	public void setHotfix(String hotfix) {
-		this.hotfix = hotfix;
-	}
 	private String iss53;
 	
 
@@ -51,7 +43,7 @@ public class Data {
 	}
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", masetAddress=" + masetAddress + ", hotfix=" + hotfix + "]";
+		return "Data [name=" + name + ", age=" + age + ", masetAddress=" + masetAddress + ", iss53=" + iss53 + "]";
 	} 
 
 
