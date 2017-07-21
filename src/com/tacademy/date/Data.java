@@ -5,7 +5,17 @@ public class Data {
 	private int age;
 	private String masetAddress;
 	private String hotfix;
+	private String iss53;
 	
+	
+
+	public String getIss53() {
+		return iss53;
+	}
+
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
+	}
 
 	public String getHotfix() {
 		return hotfix;
@@ -41,7 +51,8 @@ public class Data {
 	}
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", masetAddress=" + masetAddress + ", hotfix=" + hotfix + "]";
+		return "Data [name=" + name + ", age=" + age + ", masetAddress=" + masetAddress + ", hotfix=" + hotfix
+				+ ", iss53=" + iss53 + "]";
 	} 
 
 
