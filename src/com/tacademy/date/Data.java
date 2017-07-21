@@ -14,6 +14,16 @@ public class Data {
 	public void setHotfix(String hotfix) {
 		this.hotfix = hotfix;
 	}
+	private String iss53;
+	
+
+	public String getIss53() {
+		return iss53;
+	}
+
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
+	}
 
 	public String getMasetAddress() {
 		return masetAddress;
